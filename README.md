@@ -20,7 +20,7 @@ InfernoAuger is a tool to help automate many components related to AttackIQ's ad
  
  Usage
  -----
- Full usage information can be found at this blog post here: <INSERT BLOG LINK.>
+ Full usage information can be found at this blog post here: https://security-storm.squarespace.com/playbook/2019/5/3/automating-firedrill-adsim-configuration-with-infernoauger
  
  Below is a quick run down on how to use each module:
  
