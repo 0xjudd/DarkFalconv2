@@ -1,0 +1,8 @@
+pyyaml
+requests
+tqdm
+pick
+prettytable
+windows-curses
+splunk-sdk
+pycryptodome

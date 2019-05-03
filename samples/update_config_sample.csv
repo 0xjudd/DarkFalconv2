@@ -1,0 +1,4 @@
+Name,ID,Sophistication,JSON
+Malicious Traffic Through Proxy,6782205f-2957-4ed7-bbeb-1a6de5d81501,Novice,"{""protocols"":[""FTP""],""timeout"":30}"
+Malicious Traffic Through Proxy,6782205f-2957-4ed7-bbeb-1a6de5d81501,Practitioner,"{""protocols"":[""FTP"",""SMTP""],""timeout"":30}"
+Malicious Traffic Through Proxy,6782205f-2957-4ed7-bbeb-1a6de5d81501,Expert,"{""protocols"":[""FTP"",""SMTP"",""HTTP""],""timeout"":30}"

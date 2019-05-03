@@ -1,0 +1,20 @@
+# PyCharm files
+.idea/*
+venv/*
+
+# Config files
+etc/config.yml
+etc/encrypted.txt
+etc/priv_key.pem
+etc/pub_key.pem
+
+# Data files
+data/*
+
+# Cache files
+modules/__pycache__
+bin/__pycache__
+
+# Compiled files
+modules/*.pyc
+bin/*.pyc

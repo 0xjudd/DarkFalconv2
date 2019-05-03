@@ -1,0 +1,36 @@
+Modules:
+  - Detection
+  - Status
+  - Scenarios
+  - Main
+  - Update
+
+Log_Level: ERROR
+
+FireDrill_URLs:
+  Assessment_URL: https://firedrill.attackiq.com/v1/projects/project_from_template
+  Tests_URL: https://firedrill.attackiq.com/v1/tests
+  Test_Scenarios_URL: https://firedrill.attackiq.com/v1/test_scenarios
+  Projects_URL: https://firedrill.attackiq.com/v1/projects
+  Asset_Group_URL: https://firedrill.attackiq.com/v1/asset_groups
+  Scheduled_Run_URL: https://firedrill.attackiq.com/v1/widgets/assessment_scheduled_runs
+  On_Demand_Run_URL: https://firedrill.attackiq.com/v1/widgets/assessment_on_demand_runs
+  Scenarios_URL: https://firedrill.attackiq.com/v1/scenarios
+  Vendor_Products_URL: https://firedrill.attackiq.com/v1/vendor_product_detected_results
+
+FireDrill_Token: <TOKEN>
+FireDrill_Assessment: InfernoAuger
+
+Email:
+  Sender: InfernoAuger@<DOMAIN>.com
+  Recipient: <USER>@<DOMAIN>.com
+  SMTP_Server: <SMTP_SERVER>
+  SMTP_Port: 25
+
+Splunk:
+  Username: <SPLUNK_USER>
+  Encrypted_Password: encrypted.txt
+  Splunk_Server: <SPLUNK_SERVER>
+  Splunk_Port: <SPLUNK_PORT>
+  Password_Decryption_Key: <PRIVATE_KEY>
+  Detection_Lookup_File: <LOOKUP_FILE>.csv
